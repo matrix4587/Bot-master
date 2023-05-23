@@ -74,7 +74,7 @@
     <img class="mySlides" src="images/img1.jpg" alt="Image 1">
     <img class="mySlides" src="images/img2.jpg" alt="Image 2">
     <img class="mySlides" src="images/img3.jpg" alt="Image 3">
-  </div>
+ </div>
 <div class="contain" id="dsptxt">
   <div class="jk" id="jk">
     <h1>Welcome to <br> Greek-Wood School</h1>
