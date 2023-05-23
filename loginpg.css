@@ -1,0 +1,65 @@
+
+body{
+    background-image: url("images/signup_bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    margin-top: 15px;
+    background-color: white;
+    margin: 35px auto;
+    border-radius: 8px;
+    width: 40%;
+    padding: 10px;
+    background-color: white;
+   
+}
+.field{
+   
+    font-size: 16px;
+    width: 50%;
+    padding: 10px;
+    border-width: .5px;
+    border-radius: 5px;
+    outline: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.header{
+    color: rgb(109, 109, 255);
+    text-align: center;
+    margin-top: 10px;
+
+}
+.inputs{
+    margin-left: 10%;
+
+}
+button{
+    background-color: rgb(109, 109, 255);
+    padding: 10px;
+    font-size: 1rem;
+    border-style: none;
+    color: white;
+    border-radius: 5px;
+    width: 25%;
+    margin-left: 20%;
+    cursor: pointer;
+}
+.extra{
+    margin-left: 20%;
+}
+
+.extra a{
+    color: mediumaquamarine;
+    text-decoration: none;
+}
+

@@ -1,0 +1,199 @@
+
+body{
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  background-image: url("images/index.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.navbar {
+  background-color: rgb(0, 0, 120);
+  color: white;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+  display: flex;
+}
+
+.navbar-links li {
+  position: relative;
+  margin-right: 15px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+
+}
+.navbar-links a:hover{
+  background-color: rgb(253, 180, 45);
+  color: black;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  display: none;
+  
+}
+
+.dropdown-menu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  background-color: rgb(0, 0, 119);
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  width: 300px;
+  position: absolute;
+  border-radius: 4px;
+}
+.dropdown-menu a:hover{
+  background-color: rgb(253, 180, 45);
+  color: black;
+  padding: 10px;
+  margin: 4px 0px 4px 0px auto;
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.contain{
+  background-color: gray;
+  color: white;
+  width: 50%;
+  margin-left: 20px;
+  float: left;
+  margin-top: 10px;
+  padding: 20px 10px;
+  
+}
+.vission h2,
+.mission h2,
+.history h2,
+.overview h2{
+  text-align: center;
+  background-color: rgb(253, 180, 45);
+  border-radius: 50%;
+  margin: 10px auto;
+  width: 30%;
+  padding: 10px;
+  color: rgb(0, 0, 119);
+
+}
+.vission,
+.mission,
+.history,
+.overview{
+  display: none;
+  background-color: rgb(0, 0, 119);
+  padding: 10px;
+  color: white;
+  border-radius: 30px 30px 0px 0px;
+}
+
+
+.lenft,
+.rigmht{
+  width: 48%;
+  float: left;
+  padding: 10px 12px;
+  margin: 0px;
+  height: 50vh;
+}
+section{
+  margin: 10px auto;
+  width: 90%;
+  justify-content: space-between;
+}
+.extra{
+  margin-left: 50%;
+}
+button{
+  margin: 0px 10px;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  border-style: none;
+  border-radius: 5px;
+  background-color:  rgb(253, 180, 45);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button:hover{
+  opacity: 0.8px;
+  background-color:  rgb(253, 180, 45);
+  cursor: pointer;
+}
+.jk{
+  color:rgb(0, 0, 119);
+  background-color:rgb(255, 166, 0);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+
+}
+.right{
+  backgound-color: rgba(0, 0, 120, 0.603);
+  color: white;
+  margin-top: 20px;
+  pading: 15px;
+  width: 100%;
+  float: left;
+}
+.descript{
+  padding: 10px 0px 10px 0px;
+  float: left;
+  width: 100%;
+}
+.description{
+  background-color: blue;
+  padding: 10px;
+  float: left;
+  margin: 10px auto;
+}
+/* Slide show images*/
+.slideshow-container {
+  width: 45%;
+  positin: relative;
+  margin-left: 20px;
+  border-radius: 10px;
+  float: left;
+}
+.mySlides img{
+  border-radius: 10px;
+  dispnlay: none;
+}
+
+/*Footer*/
+.foot {
+  min-heiht: 10vh;
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+  background-color: orange;
+  color: black;
+}
